@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section#contenedor{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+}
+
+div.contenedor_img, div.contenedor_login{
+    flex:1
+}
+
+div.contenedor_login{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+div.card {
+    width:350px;
+    height:fit-content;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.4);
+}
+
+.contentFirst {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #24314C;
+    position: relative;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contentFirst::after {
+    content: '';
+    height: 100%;
+    width: 0px;
+    top: 0;
+    display: block;
+    position: absolute;
+    right: 0%;
+    background-color: transparent;
+    border-top: 100vh solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 150px solid white;
+}
+
+img.img_fondo{
+    width:250px
+}
+
+h1.h1Bienvenida{
+    font-weight:bold;
+    text-align:center;
+    font-size:31px;
+}
+
+.bolder{
+    margin: 10px 0;
+    font-weight:bolder;
+}
+
+.inputlabel {
+    background-color: #F4F4F4;
+    border: none;
+    width: 100%;
+    padding: 9px 10px;
+    color: #B2B2B2;
+    margin-bottom: 18px;
+}
+
+.text_pass {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.iconExclama{
+    height:20px;
+    margin-bottom:4px;
+}
+
+.ptext2 {
+    margin-bottom: 21px;
+    margin-top: 15px;
+}
+
+.input_container{
+    position:relative;
+}
+.ptext, .ptext3 {
+    margin: 0;
+}
+
+#imgContrasena {
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+a.acontrasena{
+    text-align:right;
+    margin:20px;
+    color: #4286F4;
+    align-self:normal;
+}
+
+.content-button {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.buttonbtn {
+    background-color: #0F55A8;
+    padding: 10px;
+    border:none;
+    color:white;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    width:85%;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    section#contenedor{
+        flex-direction:column;
+    }
+    .contentFirst{
+        height:100px;
+    }
+
+    img.img_fondo{
+        width:150px;
+    }
+    .contentFirst::after {
+        border: none;
+    }
+
+    div.contenedor_img{
+        flex:0;
+        margin-bottom:20px;
+    }
+}

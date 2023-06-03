@@ -1,0 +1,47 @@
+﻿.activo {
+    width: 87px;
+    height: fit-content;
+    padding: 3px 12px;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+    background: #81D165;
+    text-align:center;
+}
+
+.pendiente {
+    width: 87px;
+    height: fit-content;
+    padding: 3px 12px;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+    background: #F9CC5A;
+}
+
+.bloqueado {
+    width: 87px;
+    height: fit-content;
+    padding: 3px 12px;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+    background: #B2B2B2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

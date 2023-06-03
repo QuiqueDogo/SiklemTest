@@ -1,0 +1,41 @@
+﻿.aceptado {
+    width: 20px;
+    height:20px;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+    background: #81D165;
+    margin: 0 10px;
+}
+
+.revisar {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+    margin: 0 10px;
+    background: #F9CC5A;
+}
+
+.error {
+    border-radius: 50%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+    background: #FE5B5B;
+    width: 20px;
+    margin: 0 10px;
+    height: 20px;
+}
